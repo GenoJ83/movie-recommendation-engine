@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+data/*.parquet
+models/*.pkl
+.pytest_cache/
+.DS_Store
