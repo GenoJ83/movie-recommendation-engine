@@ -1,3 +1,5 @@
+import pytest
+pytest.importorskip("pandas")
 """Unit tests for matrices, SVD model, and ranking metrics."""
 from src.data.loader import generate_recsys_data
 from src.models.collaborative_svd import SVDRecommender
